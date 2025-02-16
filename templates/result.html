@@ -5,13 +5,15 @@ display govt schemes if income is too low then suggest govt schemes -->
 <html>
 <head>
     <title>Loan Eligibility Result</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 flex items-center justify-center min-h-screen">
 
-    <div class="bg-white shadow-lg rounded-lg p-8 max-w-md w-full text-center">
+    <div class="bg-white shadow-lg rounded-lg p-8 w-full max-w-lg mx-4 text-center">
         <h2 class="text-3xl font-bold mb-4 text-gray-800">Eligibility Result</h2>
         <p class="text-lg text-gray-700">Your Score: <span class="font-bold text-blue-600">{{ score }}</span></p>
+        
         {% if approved %}
             <p class="text-xl text-green-600 mt-4 font-bold">Congratulations! You are eligible for the loan.</p>
         {% else %}
