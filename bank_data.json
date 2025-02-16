@@ -1,0 +1,93 @@
+{
+    "banks": {
+      "SBI": {
+        "student_loan": {
+          "rate_of_interest": {
+            "without_collateral_upto_7.50_lakh": "11.15%",
+            "with_collateral_above_7.50_lakh": "10.15%",
+            "takeover_above_10.00_lakh_with_collateral": "10.15%"
+          },
+          "concession": {
+            "girl_students": "0.50%"
+          }
+        },
+        "home_loan": {
+          "regular_home_loan": "8.50% and above"
+        },
+        "business_loan": {
+          "starting_rate": "8.25%"
+        }
+      },
+      "PNB": {
+        "student_loan": {
+          "schemes": {
+            "PNB_Saraswati_Scheme": {
+              "loan_amount": "Up to ₹7.5 lakh",
+              "interest_rate": {
+                "male_students": "11.25%",
+                "female_students": "10.75%"
+              },
+              "security": "No collateral required",
+              "repayment_period": "Up to 15 years"
+            },
+            "PNB_Pratibha_Scheme": {
+              "loan_amount": "Above ₹7.5 lakh",
+              "interest_rate": "10.50%",
+              "security": "No collateral required",
+              "repayment_period": "Up to 15 years"
+            }
+          }
+        },
+        "business_loan": {
+          "range": "8.5%-15%"
+        },
+        "home_loan": {
+          "range": "8.5%-11.45%"
+        }
+      },
+      "Axis_Bank": {
+        "student_loan": {
+          "range": "13.70%-15.20%"
+        },
+        "business_loan": {
+          "range": "14.25%-18.50%"
+        },
+        "home_loan": {
+          "range": "8.75%-9.10%",
+          "condition": "Depends on the type of job"
+        }
+      },
+      "HDFC_Bank": {
+        "student_loan": {
+          "rate": "9.50%"
+        },
+        "business_loan": {
+          "range": "10.75%-22.50%"
+        },
+        "home_loan": {
+          "starting_at": "8.75%"
+        }
+      }
+    },
+    "government_schemes": {
+      "student_loan_schemes": [
+        "Pradhan Mantri Vidya Lakshmi Karyakram",
+        "Central Sector Interest Subsidy (CSIS) Scheme",
+        "Dr. Ambedkar Central Sector Scheme",
+        "National Safai Karamcharis Finance & Development Corporation (NSKFDC) Educational Loan Scheme"
+      ],
+      "business_loan_schemes": [
+        "Pradhan Mantri MUDRA Yojana (PMMY)",
+        "PSB Loans in 59 Minutes",
+        "Credit Linked Capital Subsidy Scheme (CLCSS)",
+        "National Small Industries Corporation (NSIC) Subsidy",
+        "Stand-Up India Scheme"
+      ],
+      "home_loan_schemes": [
+        "Pradhan Mantri Awas Yojana (PMAY)",
+        "JanSamarth Portal",
+        "Interest Subsidy Scheme for Housing the Urban Poor (ISHUP)"
+      ]
+    }
+  }
+  

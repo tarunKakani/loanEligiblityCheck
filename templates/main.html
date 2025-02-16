@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Eligibility Checker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="bg-white shadow-md rounded-lg p-8 max-w-md w-full">
+        <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">Select Loan Type</h2>
+        <form action="/select-loan" method="post">
+            <label for="loan_type" class="block text-gray-700">What type of loan do you want?</label>
+            <select name="loan_type" class="block w-full mt-2 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <option value="personal">Personal Loan</option>
+                <option value="home">Home Loan (Coming Soon)</option>
+                <option value="business">Business Loan (Coming Soon)</option>
+            </select>
+            <button type="submit" class="mt-6 w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-md shadow-md transition duration-300">
+                Continue
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>

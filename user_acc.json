@@ -1,0 +1,87 @@
+{
+    "users": [
+      {
+        "user_id": "U001",
+        "name": "John Doe",
+        "credit_score": 750,
+        "current_account_balance": 25000,
+        "account_tenure_years": 5,
+        "past_credit_history": {
+          "loan_repayments": [
+            {
+              "loan_type": "personal",
+              "status": "paid"
+            },
+            {
+              "loan_type": "car",
+              "status": "active"
+            }
+          ],
+          "credit_card_payments": {
+            "on_time_payments": 95,
+            "late_payments": 5
+          }
+        },
+        "minimum_average_balance_per_month": 10000,
+        "is_average_balance_maintained": true
+      },
+      {
+        "user_id": "U002",
+        "name": "Jane Smith",
+        "credit_score": 680,
+        "current_account_balance": 8000,
+        "account_tenure_years": 2,
+        "past_credit_history": {
+          "loan_repayments": [
+            {
+              "loan_type": "education",
+              "status": "paid"
+            }
+          ],
+          "credit_card_payments": {
+            "on_time_payments": 50,
+            "late_payments": 10
+          }
+        },
+        "minimum_average_balance_per_month": 5000,
+        "is_average_balance_maintained": false
+      },
+      {
+        "user_id": "U003",
+        "name": "Emily Johnson",
+        "credit_score": 820,
+        "current_account_balance": 100000,
+        "account_tenure_years": 10,
+        "past_credit_history": {
+          "loan_repayments": [
+            {
+              "loan_type": "home",
+              "status": "paid"
+            }
+          ],
+          "credit_card_payments": {
+            "on_time_payments": 120,
+            "late_payments": 0
+          }
+        },
+        "minimum_average_balance_per_month": 25000,
+        "is_average_balance_maintained": true
+      },
+      {
+        "user_id": "U004",
+        "name": "Michael Brown",
+        "credit_score": 590,
+        "current_account_balance": 2000,
+        "account_tenure_years": 1,
+        "past_credit_history": {
+          "loan_repayments": [],
+          "credit_card_payments": {
+            "on_time_payments": 10,
+            "late_payments": 5
+          }
+        },
+        "minimum_average_balance_per_month": 3000,
+        "is_average_balance_maintained": false
+      }
+    ]
+  }  

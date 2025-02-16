@@ -1,0 +1,31 @@
+<!-- lets add modifications to the result.html page
+display govt schemes if income is too low then suggest govt schemes -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Eligibility Result</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="bg-white shadow-lg rounded-lg p-8 max-w-md w-full text-center">
+        <h2 class="text-3xl font-bold mb-4 text-gray-800">Eligibility Result</h2>
+        <p class="text-lg text-gray-700">Your Score: <span class="font-bold text-blue-600">{{ score }}</span></p>
+        {% if approved %}
+            <p class="text-xl text-green-600 mt-4 font-bold">Congratulations! You are eligible for the loan.</p>
+        {% else %}
+            <p class="text-xl text-red-600 mt-4 font-bold">Sorry, you are not eligible for the loan at this time.</p>
+            <p class="mt-4 text-gray-600">You may be eligible for the following government schemes:</p>
+            <ul class="list-disc list-inside text-gray-800">
+                <li>{{ government_suggestion }}</li>
+            </ul>
+        {% endif %}
+
+        <a href="/" class="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white py-3 px-6 rounded-md shadow-md transition duration-300">
+            Check Another Loan
+        </a>
+    </div>
+
+</body>
+</html>
